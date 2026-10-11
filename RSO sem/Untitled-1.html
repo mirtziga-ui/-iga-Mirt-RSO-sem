@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atletika – več kot le šport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ATLETIKA</h1>
+        <p>Hitreje. Višje. Močneje.</p>
+        <nav>
+            <ul>
+                <li><a href="Untitled-1.html">Domov</a></li>
+                <li><a href="discipline.html">Discipline</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="uvod">
+        <h2>Atletika – več kot le šport</h2>
+        <p>Atletika združuje hitrost, moč, vzdržljivost in vztrajnost.</p>
+        <a href="discipline.html" class="gumb">Odkrij discipline →</a>
+    </section>
+
+    <main class="postavitev">
+        <aside class="panel">
+            <h2>Glavne discipline</h2>
+            <ul>
+                <li>Tek</li>
+                <li>Skoki</li>
+                <li>Meti</li>
+                <li>Večboj</li>
+            </ul>
+            <img src="stadion.jpg" alt="Ilustracija atletskega stadiona">
+            <blockquote>»Vsak trening je korak bližje cilju.«</blockquote>
+        </aside>
+
+        <div class="vsebina">
+            <section class="panel">
+                <h2>O atletiki</h2>
+                <p>Atletika je ena najstarejših športnih panog. Vključuje tek, skoke, mete in večboj. Športniki pri njej razvijajo hitrost, moč, koordinacijo in vzdržljivost.</p>
+                <p>Z rednim treningom izboljšujemo telesno pripravljenost, vztrajnost in samozavest. Atletika nas uči postavljanja ciljev in športnega duha.</p>
+            </section>
+
+            <section class="panel" id="rezultati">
+                <h2>Rezultati atletov</h2>
+                <label for="iskanje">Išči po imenu ali disciplini:</label>
+                <input type="search" id="iskanje" name="iskanje" placeholder="Npr. Ana ali tek">
+
+                <div class="tabela-ovoj">
+                    <table>
+                        <caption>Primer rezultatov atletov</caption>
+                        <thead>
+                            <tr>
+                                <th>Ime</th>
+                                <th>Disciplina</th>
+                                <th>Rezultat</th>
+                                <th>Datum</th>
+                            </tr>
+                        </thead>
+                        <tbody id="teloRezultatov">
+                            <tr><td>Ana Novak</td><td>100 m</td><td>12,34 s</td><td>12. 5. 2025</td></tr>
+                            <tr><td>Luka Kranjc</td><td>Skok v višino</td><td>1,95 m</td><td>3. 6. 2021</td></tr>
+                            <tr><td>Eva Horvat</td><td>Met kopja</td><td>42,76 m</td><td>18. 5. 2023</td></tr>
+                            <tr><td>Marko Žagar</td><td>Skok v daljino</td><td>6,42 m</td><td>10. 6. 2025</td></tr>
+                            <tr><td>Matic Osovnikar</td><td>60 m</td><td>6.58</td><td>1. 7. 2024</td></tr>
+                            <tr> <td>Rok Ferlan</td><td>400 m</td><td>44.7</td><td>24. 6. 2026</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p id="steviloRezultatov">Prikazani so vsi rezultati.</p>
+            </section>
+
+            <section class="panel">
+                <h2>Hitri kviz</h2>
+                <p>Katera možnost je tekaška disciplina?</p>
+                <form id="kvizObrazec">
+                    <label class="izbira"><input type="radio" name="odgovor" value="met"> Met kopja</label>
+                    <label class="izbira"><input type="radio" name="odgovor" value="tek"> Tek na 100 m</label>
+                    <label class="izbira"><input type="radio" name="odgovor" value="skok"> Skok v višino</label>
+                    <label class="izbira"><input type="radio" name="odgovor" value="daljina"> Skok v daljino</label>
+                    <button class="gumb" type="submit">Preveri odgovor</button>
+                </form>
+                <p id="rezultatKviza" aria-live="polite"></p>
+            </section>
+        </div>
+
+        <aside class="panel">
+            <h2>Atletske zanimivosti</h2>
+            <article>
+                <h3>Začetki atletike</h3>
+                <p>Atletika je bila del antičnih olimpijskih iger v stari Grčiji.</p>
+            </article>
+            <article>
+                <h3>Olimpijske igre</h3>
+                <p>Atletika je ena osrednjih športnih panog na sodobnih olimpijskih igrah.</p>
+            </article>
+            <article>
+                <h3>Pridruži se nam</h3>
+                <p>Odkrij svoje sposobnosti in začni svojo športno pot.</p>
+                <a href="kontakt.html">Kontakt in prijava →</a>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+         <p> 2026 Atletika – šolski projekt, avtor - Žiga Mirt.</p>
+        <a href="#uvod">Nazaj na vrh ↑</a>
+    </footer>
+
+    <script src="skripta.js"></script>
+</body>
+</html>
+ 
