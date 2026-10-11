@@ -1,2 +1,2 @@
-# -iga-Mirt-RSO-sem
+# Žiga Mirt RSO-sem
 seminarska naloga
